@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checkout code..
+      # Checkout code...
     - uses: actions/checkout@main
       # Log into Azure
     - uses: azure/login@v1
